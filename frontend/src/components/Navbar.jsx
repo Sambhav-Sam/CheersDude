@@ -4,7 +4,7 @@ import { FiPhoneCall } from "react-icons/fi";
 const Navbar = () => {
     return <div>
         <header className='max-w-screen-2xl container mx-auto '>
-            <div className="navbar xl:px-24">
+            <div className="navbar xl:px-24 lg:px-18">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

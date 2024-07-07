@@ -1,21 +1,20 @@
-import { useState } from 'react'
-import { BrowserRouter,Router,Route, Routes } from 'react-router-dom'
-import './App.css'
-import {SignupPage} from './Routes.js'
-import { LoginPage } from './Routes.js'
+import { useState } from "react";
+import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Homepage from "./components/Homepage/Homepage";
+import { SignupPage } from "./Routes.js";
+import { LoginPage } from "./Routes.js";
 
 function App() {
-
-
   return (
-   <BrowserRouter>
-   <Routes>
-    <Route path='/login' element={<LoginPage/>}/>
-    <Route path='/sign-up' element={<SignupPage/>}/>
-   </Routes>
-   </BrowserRouter>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/sign-up" element={<SignupPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
-
+export default App;

@@ -1,0 +1,71 @@
+.Box {
+  display: flex;
+  color: #000;
+  justify-content: space-between;  
+  padding: 0 calc(10vw + 5px);
+}
+
+.Location {
+  display: flex;
+  flex-grow: 0.2;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.Location p {
+  margin-right: 10px;
+  color: #000;
+}
+
+.Location span {
+  border-left: 1px solid #000;
+  font-size: 2px;
+  height: 20px;
+  display: flex;
+}
+
+.Location input {
+  color: #000;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 6px;
+}
+
+.Search {
+  border: 1px solid #000;
+  flex-grow: 0.8;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Search p {
+  color: #000;
+  margin-right: 10px;
+}
+
+.Search input {
+  color: #000;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-right: 6px;
+}
+
+.Search img {
+  display: flex;
+  width: 15px;
+  object-fit: contain;
+}
